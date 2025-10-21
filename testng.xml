@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="testSuite">
+    <test name="FSTTests">
+    	<listeners>
+    		<listener class-name="tests.ListenerClass" />
+    	</listeners>
+        <classes>
+            <class name="tests.LoginTest" />
+        </classes>
+    </test>
+</suite>
