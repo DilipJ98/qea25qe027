@@ -22,13 +22,17 @@ public class LoginTest {
 	
 	@DataProvider(name = "browser", parallel = true)
 	public Object[][] browserNames() throws IOException {
-		ReadXLDataAmazon xl = new ReadXLDataAmazon();
-		return xl.dataReader();
+		return new Object[][] {
+			{"a","b"},
+			{"a","b"},
+			{"a","b"},
+			{"a","b"},
+		};
 	}
 	
 	@Test(dataProvider = "browser")
-	public void testLogin(String nameOfBrowser, String name, String expected) throws MalformedURLException, InterruptedException {
-		System.out.println(nameOfBrowser + " " + name + "" + expected);
+	public void testLogin(String nameOfBrowser, String name) throws MalformedURLException, InterruptedException {
+//		System.out.println(nameOfBrowser + " " + name + "" + expected);
 		//		ChromeOptions chrome;
 //		FirefoxOptions fire;
 //		WebDriver driver = null;
