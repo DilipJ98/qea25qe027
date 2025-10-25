@@ -11,7 +11,7 @@ public class ReportClass {
 	public static void createReport() {
 		reports = new ExtentReports();
 		String path = String.valueOf(System.currentTimeMillis());
-		ExtentSparkReporter spark = new ExtentSparkReporter("test-output/" + path + ".html");
+		ExtentSparkReporter spark = new ExtentSparkReporter("test-output/ExtentReport.html");
 		reports.attachReporter(spark);
 	}
 	
