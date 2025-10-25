@@ -14,7 +14,7 @@ public class ReadXLDataAmazon {
 	@Test
 	public static Object[][] dataReader() throws IOException {
 		
-		FileInputStream file = new FileInputStream("src/test/resources/testdata.xlsx");
+		FileInputStream file = new FileInputStream("src/test/resources/credentials.xlsx");
 		Workbook book = new XSSFWorkbook(file);
 		Sheet sheet = book.getSheetAt(0);		
 		Object[] [] data = new Object[sheet.getPhysicalNumberOfRows() - 1][sheet.getRow(0).getLastCellNum()];

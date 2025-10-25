@@ -5,7 +5,7 @@
     <classes>
       <class name="com.cognizant.session.third_batch_java.LoginTest">
         <methods>
-          <include name="testLogin" invocation-numbers="0 1 2 3"/>
+          <include name="testLogin"/>
         </methods>
       </class> <!-- com.cognizant.session.third_batch_java.LoginTest -->
     </classes>

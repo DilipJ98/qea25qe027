@@ -12,15 +12,18 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import com.cognizant.qea25qe026.ReadDataOfXl;
+
+import utils.ReadXLDataAmazon;
+import utils.ReadXlData;
+
 
 
 public class LoginTest {
 	
 	@DataProvider(name = "browser", parallel = true)
 	public Object[][] browserNames() throws IOException {
-		ReadDataOfXl xl = new ReadDataOfXl();
-		return xl.readXlData("C:/Users/Dilip/Desktop/credentials.xlsx");
+		ReadXLDataAmazon xl = new ReadXLDataAmazon();
+		return xl.dataReader();
 	}
 	
 	@Test(dataProvider = "browser")
