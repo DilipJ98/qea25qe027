@@ -17,7 +17,7 @@ public class ReadXlData {
 	}
 	
 	public static int rowCount() throws IOException {
-		FileInputStream input = new FileInputStream("C:/Users/Dilip/eclipse-workspace/third-batch-java/src/test/resources/amazonkeyword.xlsx");
+		FileInputStream input = new FileInputStream("src/test/resources/amazonkeyword.xlsx");
 		Workbook book = new XSSFWorkbook(input);
 		sheet = book.getSheetAt(0);
 		return sheet.getPhysicalNumberOfRows();

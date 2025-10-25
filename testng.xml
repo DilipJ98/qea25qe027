@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="testSuite">
     <test name="FSTTests">
-    	<listeners>
-    		<listener class-name="tests.ListenerClass" />
+		<listeners>
+    		<listener class-name="com.listener.ListnerClass" />
     	</listeners>
         <classes>
             <class name="tests.LoginTest" />
+            <class name="com.cognizant.session.third_batch_java.LoginTest" />
+            <class name="com.cognizant.session.third_batch_java.LogTest" />            
         </classes>
     </test>
 </suite>

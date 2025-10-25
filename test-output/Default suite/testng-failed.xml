@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TestAmazonSearchFun">
+      <class name="com.cognizant.session.third_batch_java.LoginTest">
         <methods>
-          <include name="testSearchBar" invocation-numbers="1 2"/>
+          <include name="testLogin" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- tests.TestAmazonSearchFun -->
+      </class> <!-- com.cognizant.session.third_batch_java.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

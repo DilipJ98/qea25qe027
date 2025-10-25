@@ -1,61 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="12" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-16T22:06:54 IST" name="Default suite" finished-at="2025-10-16T22:09:48 IST" duration-ms="173669">
+  <suite started-at="2025-10-25T20:01:29 IST" name="testSuite" finished-at="2025-10-25T20:01:49 IST" duration-ms="20100">
     <groups>
+      <group name="Car">
+        <method signature="LogTest.forgot()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@6913c1fb]" name="forgot" class="com.cognizant.session.third_batch_java.LogTest"/>
+      </group> <!-- Car -->
     </groups>
-    <test started-at="2025-10-16T22:06:54 IST" name="Default test" finished-at="2025-10-16T22:09:48 IST" duration-ms="173669">
-      <class name="tests.TestAmazonSearchFun">
-        <test-method signature="testSearchBar(java.lang.String,java.lang.String)[pri:0, instance:tests.TestAmazonSearchFun@15de0b3c]" started-at="2025-10-16T22:06:54 IST" name="testSearchBar" data-provider="data" finished-at="2025-10-16T22:07:39 IST" duration-ms="44084" status="PASS">
+    <test started-at="2025-10-25T20:01:29 IST" name="FSTTests" finished-at="2025-10-25T20:01:49 IST" duration-ms="20100">
+      <class name="com.cognizant.session.third_batch_java.LoginTest">
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@305b7c14]" started-at="2025-10-25T20:01:42 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:01:42 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Laptops]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[laptops]]>
+                <![CDATA[qwert]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchBar -->
-        <test-method signature="testSearchBar(java.lang.String,java.lang.String)[pri:0, instance:tests.TestAmazonSearchFun@15de0b3c]" started-at="2025-10-16T22:07:39 IST" name="testSearchBar" data-provider="data" finished-at="2025-10-16T22:08:17 IST" duration-ms="38002" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@305b7c14]" started-at="2025-10-25T20:01:42 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:01:42 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Mobiles ]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[mobiles]]>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Back, Admin!]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchBar -->
-        <test-method signature="testSearchBar(java.lang.String,java.lang.String)[pri:0, instance:tests.TestAmazonSearchFun@15de0b3c]" started-at="2025-10-16T22:08:17 IST" name="testSearchBar" data-provider="data" finished-at="2025-10-16T22:09:48 IST" duration-ms="91095" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@305b7c14]" started-at="2025-10-25T20:01:42 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:01:42 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Watches]]>
+                <![CDATA[Ravi]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[watches]]>
+                <![CDATA[ravi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchBar -->
-      </class> <!-- tests.TestAmazonSearchFun -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@305b7c14]" started-at="2025-10-25T20:01:42 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:01:42 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naresh123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@305b7c14]" started-at="2025-10-25T20:01:42 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:01:42 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apsar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apsar123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@305b7c14]" started-at="2025-10-25T20:01:42 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:01:42 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Back, Admin!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@305b7c14]" started-at="2025-10-25T20:01:42 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:01:42 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dbm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dbm123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.cognizant.session.third_batch_java.LoginTest -->
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@302552ec]" started-at="2025-10-25T20:01:29 IST" name="setUp" finished-at="2025-10-25T20:01:35 IST" duration-ms="5634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b61bf11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@302552ec]" started-at="2025-10-25T20:01:35 IST" name="loginTest" finished-at="2025-10-25T20:01:35 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@302552ec]" started-at="2025-10-25T20:01:35 IST" name="tearDown" finished-at="2025-10-25T20:01:36 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@302552ec]" started-at="2025-10-25T20:01:36 IST" name="setUp" finished-at="2025-10-25T20:01:40 IST" duration-ms="3767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b61bf11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestTwo()[pri:0, instance:tests.LoginTest@302552ec]" started-at="2025-10-25T20:01:40 IST" name="loginTestTwo" finished-at="2025-10-25T20:01:40 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@302552ec]" started-at="2025-10-25T20:01:40 IST" name="tearDown" finished-at="2025-10-25T20:01:41 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="com.cognizant.session.third_batch_java.LogTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@6913c1fb]" started-at="2025-10-25T20:01:42 IST" name="setUp" finished-at="2025-10-25T20:01:48 IST" duration-ms="5724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="depand()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@6913c1fb]" started-at="2025-10-25T20:01:48 IST" name="depand" finished-at="2025-10-25T20:01:48 IST" duration-ms="8" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this Test case as it is Google home page]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this Test case as it is Google home page
+at com.cognizant.session.third_batch_java.LogTest.depand(LogTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depand -->
+        <test-method signature="forgot()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@6913c1fb]" started-at="2025-10-25T20:01:48 IST" name="forgot" finished-at="2025-10-25T20:01:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot -->
+        <test-method signature="signUp()[pri:1, instance:com.cognizant.session.third_batch_java.LogTest@6913c1fb]" started-at="2025-10-25T20:01:48 IST" name="signUp" finished-at="2025-10-25T20:01:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.cognizant.session.third_batch_java.LogTest@6913c1fb]" started-at="2025-10-25T20:01:48 IST" name="loginTest" finished-at="2025-10-25T20:01:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@6913c1fb]" started-at="2025-10-25T20:01:48 IST" name="tearDown" finished-at="2025-10-25T20:01:49 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cognizant.session.third_batch_java.LogTest -->
+    </test> <!-- FSTTests -->
+  </suite> <!-- testSuite -->
 </testng-results>

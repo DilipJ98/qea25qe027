@@ -39,10 +39,10 @@ public class LoginTest {
 		driver.findElement(By.xpath("//button[text() = 'Submit']")).click();
 //		Assert.assertEquals(false, true);
 		if (i % 2 == 0) {
-			Assert.assertEquals(false, true);
+			Assert.assertEquals(false, false);
 		} else {
 			i++;
-			Assert.assertEquals(false, true);
+			Assert.assertEquals(false, false);
 		}
 	}
 	

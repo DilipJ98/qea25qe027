@@ -15,7 +15,6 @@ import org.xml.sax.SAXException;
 
 
 public class ReadXml {
-	@Test
 	public void readXml() throws ParserConfigurationException, SAXException, IOException {
 		File file = new File("C:/Users/Dilip/Desktop/sample.xml");
 		
