@@ -1,156 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="12" failed="0" skipped="1">
+<testng-results ignored="0" total="10" passed="9" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-25T20:34:43 IST" name="testSuite" finished-at="2025-10-25T20:35:18 IST" duration-ms="35093">
+  <suite started-at="2025-10-25T21:10:02 IST" name="testSuite" finished-at="2025-10-25T21:10:22 IST" duration-ms="19456">
     <groups>
       <group name="Car">
         <method signature="LogTest.forgot()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" name="forgot" class="com.cognizant.session.third_batch_java.LogTest"/>
       </group> <!-- Car -->
     </groups>
-    <test started-at="2025-10-25T20:34:43 IST" name="FSTTests" finished-at="2025-10-25T20:35:18 IST" duration-ms="35093">
+    <test started-at="2025-10-25T21:10:02 IST" name="FSTTests" finished-at="2025-10-25T21:10:22 IST" duration-ms="19456">
       <class name="com.cognizant.session.third_batch_java.LoginTest">
-        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T20:34:57 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:34:57 IST" duration-ms="23" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T21:10:17 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T21:10:17 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[a]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Welcome Back, Admin!]]>
+                <![CDATA[b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T20:34:57 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:34:57 IST" duration-ms="24" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T21:10:17 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T21:10:17 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin123]]>
+                <![CDATA[a]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[qwert]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid credentials]]>
+                <![CDATA[b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T20:34:57 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:34:57 IST" duration-ms="22" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T21:10:17 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T21:10:17 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[naresh]]>
+                <![CDATA[a]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[naresh123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid credentials]]>
+                <![CDATA[b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T20:34:57 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:34:57 IST" duration-ms="31" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T21:10:17 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T21:10:17 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Dbm]]>
+                <![CDATA[a]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[dbm123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid credentials]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T20:34:57 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:34:57 IST" duration-ms="21" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Apsar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[apsar123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid credentials]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T20:34:57 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:34:57 IST" duration-ms="21" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Welcome Back, Admin!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cognizant.session.third_batch_java.LoginTest@3d34d211]" started-at="2025-10-25T20:34:57 IST" name="testLogin" data-provider="browser" finished-at="2025-10-25T20:34:57 IST" duration-ms="30" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ravi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ravi123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid credentials]]>
+                <![CDATA[b]]>
               </value>
             </param>
           </params>
@@ -159,51 +76,51 @@
         </test-method> <!-- testLogin -->
       </class> <!-- com.cognizant.session.third_batch_java.LoginTest -->
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T20:34:43 IST" name="setUp" finished-at="2025-10-25T20:34:48 IST" duration-ms="5102" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T21:10:03 IST" name="setUp" finished-at="2025-10-25T21:10:09 IST" duration-ms="6421" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4317850d]]>
+                <![CDATA[org.testng.TestRunner@1f6d27cc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T20:34:48 IST" name="loginTest" finished-at="2025-10-25T20:34:49 IST" duration-ms="280" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T21:10:09 IST" name="loginTest" finished-at="2025-10-25T21:10:09 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T20:34:49 IST" name="tearDown" finished-at="2025-10-25T20:34:50 IST" duration-ms="1137" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T21:10:09 IST" name="tearDown" finished-at="2025-10-25T21:10:11 IST" duration-ms="1178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T20:34:50 IST" name="setUp" finished-at="2025-10-25T20:34:55 IST" duration-ms="5648" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T21:10:11 IST" name="setUp" finished-at="2025-10-25T21:10:15 IST" duration-ms="4781" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4317850d]]>
+                <![CDATA[org.testng.TestRunner@1f6d27cc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestTwo()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T20:34:55 IST" name="loginTestTwo" finished-at="2025-10-25T20:34:56 IST" duration-ms="259" status="PASS">
+        <test-method signature="loginTestTwo()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T21:10:15 IST" name="loginTestTwo" finished-at="2025-10-25T21:10:16 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestTwo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T20:34:56 IST" name="tearDown" finished-at="2025-10-25T20:34:57 IST" duration-ms="935" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@198b6731]" started-at="2025-10-25T21:10:16 IST" name="tearDown" finished-at="2025-10-25T21:10:17 IST" duration-ms="947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="com.cognizant.session.third_batch_java.LogTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T20:34:57 IST" name="setUp" finished-at="2025-10-25T20:35:17 IST" duration-ms="19839" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T21:10:17 IST" name="setUp" finished-at="2025-10-25T21:10:21 IST" duration-ms="4300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="depand()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T20:35:17 IST" name="depand" finished-at="2025-10-25T20:35:17 IST" duration-ms="13" status="SKIP">
+        <test-method signature="depand()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T21:10:21 IST" name="depand" finished-at="2025-10-25T21:10:21 IST" duration-ms="14" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this Test case as it is Google home page]]>
@@ -243,19 +160,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depand -->
-        <test-method signature="forgot()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T20:35:17 IST" name="forgot" finished-at="2025-10-25T20:35:17 IST" duration-ms="4" status="PASS">
+        <test-method signature="forgot()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T21:10:21 IST" name="forgot" finished-at="2025-10-25T21:10:21 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgot -->
-        <test-method signature="signUp()[pri:1, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T20:35:17 IST" name="signUp" finished-at="2025-10-25T20:35:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="signUp()[pri:1, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T21:10:21 IST" name="signUp" finished-at="2025-10-25T21:10:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method signature="loginTest()[pri:2, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T20:35:17 IST" name="loginTest" finished-at="2025-10-25T20:35:17 IST" duration-ms="4" status="PASS">
+        <test-method signature="loginTest()[pri:2, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T21:10:21 IST" name="loginTest" finished-at="2025-10-25T21:10:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T20:35:17 IST" name="tearDown" finished-at="2025-10-25T20:35:18 IST" duration-ms="929" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cognizant.session.third_batch_java.LogTest@7dc0f706]" started-at="2025-10-25T21:10:21 IST" name="tearDown" finished-at="2025-10-25T21:10:22 IST" duration-ms="934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
