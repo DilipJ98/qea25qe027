@@ -1,5 +1,6 @@
 pipeline {
 	agent  any
+	
 	stages {
 		stage("Build") {
 			steps {
@@ -16,7 +17,7 @@ pipeline {
 		}
 		
 		stage("Publish") {
-			steps{
+			steps {
 				testNG()
 			}
 		}
