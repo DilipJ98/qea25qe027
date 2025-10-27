@@ -15,7 +15,7 @@ pipeline {
 			}
 		}
 		
-		stage("Report") {
+		stage("Publish") {
 			steps{
 				testNG()
 			}
